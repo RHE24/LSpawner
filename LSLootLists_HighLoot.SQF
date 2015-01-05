@@ -368,7 +368,7 @@ lootWeapon_list = [
 "SMG_01_F",
 "SMG_02_F",
 "srifle_EBR_F",
-"arifle_SDAR_F",
+"arifle_SDAR_F"
 ]],[ 1, [						// MILITARY
 
 "ChainSaw",
