@@ -39,24 +39,24 @@ lootWeapon_list = [
 "arifle_TRG20_F",
 "arifle_TRG21_F",
 "arifle_TRG21_GL_F",
-"Binocular",						//counts as weapon
+"Binocular",
 "hgun_ACPC2_snds_F",
 "hgun_P07_snds_F",
 "hgun_PDW2000_F",
 "hgun_Rook40_snds_F",
-"Laserdesignator",					//counts as weapon
+"Laserdesignator",
 "launch_NLAW_F",
 "launch_RPG32_F",
 "launch_Titan_F",
 "LMG_Mk200_F",
 "LMG_Zafir_F",
-"Rangefinder",						//counts as weapon
+"Rangefinder",
 "SMG_01_F",
 "SMG_02_F",
 "srifle_EBR_F",
 "srifle_GM6_F",
 "srifle_LRR_F"
-]],[ 2, [						// INDUSTRIAL
+]],[ 2, [
 "ItemLockBox",
 "arifle_Katiba_C_F",
 "arifle_Mk20C_F",
@@ -65,7 +65,7 @@ lootWeapon_list = [
 "arifle_SDAR_F",
 "arifle_TRG20_F",
 "arifle_TRG21_F",
-"Binocular",						//counts as weapon
+"Binocular",
 "SMG_01_F",
 "SMG_02_F"
 ]],[ 3, [						// RESEARCH
@@ -288,7 +288,7 @@ lootItem_list = [
 "ItemCorrugated",
 "ItemCorrugatedLg",
 "PartPlankPack",
-"WoodLog_EPOCH"
+"WoodLog_EPOCH",
 "KitStudWall",
 "KitWoodFloor",
 "KitWoodStairs",
