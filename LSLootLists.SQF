@@ -8,6 +8,7 @@
 //								weaponlist	: list of weapon class names
 lootWeapon_list = [
 [ 0, [							// CIVIL
+"ItemLockBox",
 "arifle_MK20C_F",
 "arifle_MK20_F",
 "arifle_TRG20_F",
@@ -19,9 +20,10 @@ lootWeapon_list = [
 "hgun_Rook40_F",
 "SMG_01_F",
 "SMG_02_F",
-"srifle_EBR_F"
+"srifle_EBR_F,
 //"arifle_SDAR_F",
 ]],[ 1, [						// MILITARY
+"ItemLockBox",
 "arifle_Katiba_C_F",
 "arifle_Katiba_F",
 "arifle_Katiba_GL_F",
@@ -55,6 +57,7 @@ lootWeapon_list = [
 "srifle_GM6_F",
 "srifle_LRR_F"
 ]],[ 2, [						// INDUSTRIAL
+"ItemLockBox",
 "arifle_Katiba_C_F",
 "arifle_Mk20C_F",
 "arifle_Mk20_F",
@@ -66,6 +69,7 @@ lootWeapon_list = [
 "SMG_01_F",
 "SMG_02_F"
 ]],[ 3, [						// RESEARCH
+"ItemLockBox",
 "Laserdesignator",					//counts as weapon
 "launch_NLAW_F",
 "launch_RPG32_F",
@@ -83,6 +87,7 @@ lootWeapon_list = [
 //								magazinelist: list of magazine class names
 lootMagazine_list = [
 [ 0, [							// CIVIL
+"ItemLockBox",
 "16Rnd_9x21_Mag",
 "20Rnd_556x45_UW_mag",
 "20Rnd_762x51_Mag",
@@ -93,6 +98,7 @@ lootMagazine_list = [
 "HandGrenade",
 "HandGrenade_Stone"
 ]],[ 1, [						// MILITARY
+"ItemLockBox",
 "100Rnd_65x39_caseless_mag",
 "100Rnd_65x39_caseless_mag_Tracer",
 "150Rnd_762x51_Box",
@@ -147,6 +153,7 @@ lootMagazine_list = [
 "Titan_AP",
 "Titan_AT"
 ]],[ 2, [						// INDUSTRIAL
+"ItemLockBox",
 "20Rnd_556x45_UW_mag",
 "30Rnd_45ACP_Mag_SMG_01",
 "30Rnd_556x45_Stanag",
@@ -157,8 +164,9 @@ lootMagazine_list = [
 "30Rnd_65x39_caseless_green_mag_Tracer",
 "30Rnd_65x39_caseless_mag",
 "30Rnd_65x39_caseless_mag_Tracer",
-"30Rnd_9x21_Mag",
+"30Rnd_9x21_Mag"
 ]],[ 3, [						// RESEARCH
+"ItemLockBox",
 "5Rnd_127x108_Mag",
 "7Rnd_408_Mag",
 "NLAW_F",
@@ -177,7 +185,7 @@ lootMagazine_list = [
 //								itemlist	: list of item class names
 lootItem_list = [
 [ 0, [							// CIVIL
-
+"ItemLockBox",
 "ChainSaw",
 "ItemCoolerE",
 "VehicleRepairLg",
@@ -197,19 +205,19 @@ lootItem_list = [
 "Pelt_EPOCH",
 "Venom_EPOCH",
 "PartOre",
-"ItemKiloHemp"
+"ItemKiloHemp",
 "SnakeCarcass_EPOCH",
 "RabbitCarcass_EPOCH",
 "ChickenCarcass_EPOCH",
 "GoatCarcass_EPOCH",
-"SheepCarcass_EPOCH"
+"SheepCarcass_EPOCH",
 "ItemCompass",
 "ItemGPS",
 "ItemWatch",
 "Binocular",
 "NVG_EPOCH",
 "Rangefinder",
-"Laserdesignator"
+"Laserdesignator",
 "EpochRadio0",
 "EpochRadio1",
 "EpochRadio2",
@@ -219,13 +227,13 @@ lootItem_list = [
 "EpochRadio6",
 "EpochRadio7",
 "EpochRadio8",
-"EpochRadio9"
+"EpochRadio9",
 "WhiskeyNoodle",
 "ItemSodaOrangeSherbet",
 "ItemSodaPurple",
 "ItemSodaMocha",
 "ItemSodaBurst",
-"ItemSodaRbull"
+"ItemSodaRbull",
 "FoodBioMeat",
 "FoodMeeps",
 "FoodSnooter",
@@ -242,7 +250,7 @@ lootItem_list = [
 "CookedChicken_EPOCH",
 "ItemTrout",
 "ItemSeaBass",
-"ItemTuna"
+"ItemTuna",
 "FAK",
 "Towelette",
 "HeatPack",
@@ -256,7 +264,7 @@ lootItem_list = [
 "ItemRuby",
 "ItemQuartz",
 "ItemJade",
-"ItemGarnet"
+"ItemGarnet",
 "PaintCanBlk",
 "PaintCanBlu",
 "PaintCanBrn",
@@ -265,7 +273,7 @@ lootItem_list = [
 "PaintCanPur",
 "PaintCanRed",
 "PaintCanTeal",
-"PaintCanYel"
+"PaintCanYel",
 "DemoCharge_Remote_Mag",
 "SatchelCharge_Remote_Mag",
 "ATMine_Range_Mag",
@@ -273,7 +281,7 @@ lootItem_list = [
 "APERSMine_Range_Mag",
 "APERSBoundingMine_Range_Mag",
 "SLAMDirectionalMine_Wire_Mag",
-"APERSTripMine_Wire_Mag"
+"APERSTripMine_Wire_Mag",
 "CinderBlocks",
 "MortarBucket",
 "ItemScraps",
@@ -291,7 +299,7 @@ lootItem_list = [
 "KitFoundation",
 "JackKit",
 "KitPlotPole",
-"KitCinderWall"
+"KitCinderWall",
 "acc_flashlight",
 "FirstAidKit",
 "H_Bandanna_gry",
@@ -326,8 +334,9 @@ lootItem_list = [
 "ItemMap",
 "ItemRadio",
 "ItemCompass",
-"ItemWatch"
+"ItemWatch"						//<----Make sure last line has NO COMMA AT THE END
 ]],[ 1, [						// MILITARY
+"ItemLockBox",
 "acc_flashlight",
 "acc_pointer_IR",
 "B_UavTerminal",
@@ -361,6 +370,7 @@ lootItem_list = [
 "optic_SOS",
 "O_UavTerminal",
 "ToolKit",
+"ItemLockBox",
 "U_B_CombatUniform_mcam",
 "U_B_GhillieSuit",
 "U_I_CombatUniform",
@@ -387,6 +397,7 @@ lootItem_list = [
 "ItemCompass",
 "ItemMap",
 "ItemWatch",
+"ItemLockBox",
 "ToolKit",
 "U_B_Wetsuit",
 "U_I_Wetsuit",
@@ -396,6 +407,7 @@ lootItem_list = [
 "V_RebreatherIR"
 ]],[ 3, [						// RESEARCH
 "B_UavTerminal",
+"ItemLockBox",
 "FirstAidKit",
 "ItemGPS",
 "I_UavTerminal",
@@ -417,7 +429,7 @@ lootItem_list = [
 //								backpacklist: list of backpack class names
 lootBackpack_list = [
 [ 0, [							// CIVIL
-
+"ItemLockBox",
 "B_AssaultPack_cbr",
 "B_AssaultPack_dgtl",
 "B_AssaultPack_khk",
@@ -450,9 +462,9 @@ lootBackpack_list = [
 "smallbackpack_red_epoch",
 "smallbackpack_green_epoch",
 "smallbackpack_teal_epoch",
-"smallbackpack_pink_epoch"
-"V_1_EPOCH","V_2_EPOCH","V_3_EPOCH","V_4_EPOCH","V_5_EPOCH","V_6_EPOCH","V_7_EPOCH","V_8_EPOCH","V_9_EPOCH","V_10_EPOCH","V_11_EPOCH","V_12_EPOCH","V_13_EPOCH","V_14_EPOCH","V_15_EPOCH","V_16_EPOCH","V_17_EPOCH","V_18_EPOCH","V_19_EPOCH","V_20_EPOCH","V_21_EPOCH","V_22_EPOCH","V_23_EPOCH","V_24_EPOCH","V_25_EPOCH","V_26_EPOCH","V_27_EPOCH","V_28_EPOCH","V_29_EPOCH","V_30_EPOCH","V_31_EPOCH","V_32_EPOCH","V_33_EPOCH","V_34_EPOCH","V_35_EPOCH","V_36_EPOCH","V_37_EPOCH","V_38_EPOCH","V_39_EPOCH","V_40_EPOCH"
-"H_1_EPOCH","H_2_EPOCH","H_3_EPOCH","H_4_EPOCH","H_5_EPOCH","H_6_EPOCH","H_7_EPOCH","H_8_EPOCH","H_9_EPOCH","H_10_EPOCH","H_11_EPOCH","H_12_EPOCH","H_13_EPOCH","H_14_EPOCH","H_15_EPOCH","H_16_EPOCH","H_17_EPOCH","H_18_EPOCH","H_19_EPOCH","H_20_EPOCH","H_21_EPOCH","H_22_EPOCH","H_23_EPOCH","H_24_EPOCH","H_25_EPOCH","H_26_EPOCH","H_27_EPOCH","H_28_EPOCH","H_29_EPOCH","H_30_EPOCH","H_31_EPOCH","H_32_EPOCH","H_33_EPOCH","H_34_EPOCH","H_35_EPOCH","H_36_EPOCH","H_37_EPOCH","H_38_EPOCH","H_39_EPOCH","H_40_EPOCH","H_41_EPOCH","H_42_EPOCH","H_43_EPOCH","H_44_EPOCH","H_45_EPOCH","H_46_EPOCH","H_47_EPOCH","H_48_EPOCH","H_49_EPOCH","H_50_EPOCH","H_51_EPOCH","H_52_EPOCH","H_53_EPOCH","H_54_EPOCH","H_55_EPOCH","H_56_EPOCH","H_57_EPOCH","H_58_EPOCH","H_59_EPOCH","H_60_EPOCH","H_61_EPOCH","H_62_EPOCH","H_63_EPOCH","H_64_EPOCH","H_65_EPOCH","H_66_EPOCH","H_67_EPOCH","H_68_EPOCH","H_69_EPOCH","H_70_EPOCH","H_71_EPOCH","H_72_EPOCH","H_73_EPOCH","H_74_EPOCH","H_75_EPOCH","H_76_EPOCH","H_77_EPOCH","H_78_EPOCH","H_79_EPOCH","H_80_EPOCH","H_81_EPOCH","H_82_EPOCH","H_83_EPOCH","H_84_EPOCH","H_85_EPOCH","H_86_EPOCH","H_87_EPOCH","H_88_EPOCH","H_89_EPOCH","H_90_EPOCH","H_91_EPOCH","H_92_EPOCH","H_93_EPOCH","H_94_EPOCH","H_95_EPOCH","H_96_EPOCH","H_97_EPOCH","H_98_EPOCH","H_99_EPOCH","H_100_EPOCH","H_101_EPOCH","H_102_EPOCH","H_103_EPOCH","H_104_EPOCH","wolf_mask_epoch","pkin_mask_epoch"
+"smallbackpack_pink_epoch",
+"V_1_EPOCH","V_2_EPOCH","V_3_EPOCH","V_4_EPOCH","V_5_EPOCH","V_6_EPOCH","V_7_EPOCH","V_8_EPOCH","V_9_EPOCH","V_10_EPOCH","V_11_EPOCH","V_12_EPOCH","V_13_EPOCH","V_14_EPOCH","V_15_EPOCH","V_16_EPOCH","V_17_EPOCH","V_18_EPOCH","V_19_EPOCH","V_20_EPOCH","V_21_EPOCH","V_22_EPOCH","V_23_EPOCH","V_24_EPOCH","V_25_EPOCH","V_26_EPOCH","V_27_EPOCH","V_28_EPOCH","V_29_EPOCH","V_30_EPOCH","V_31_EPOCH","V_32_EPOCH","V_33_EPOCH","V_34_EPOCH","V_35_EPOCH","V_36_EPOCH","V_37_EPOCH","V_38_EPOCH","V_39_EPOCH","V_40_EPOCH",
+"H_1_EPOCH","H_2_EPOCH","H_3_EPOCH","H_4_EPOCH","H_5_EPOCH","H_6_EPOCH","H_7_EPOCH","H_8_EPOCH","H_9_EPOCH","H_10_EPOCH","H_11_EPOCH","H_12_EPOCH","H_13_EPOCH","H_14_EPOCH","H_15_EPOCH","H_16_EPOCH","H_17_EPOCH","H_18_EPOCH","H_19_EPOCH","H_20_EPOCH","H_21_EPOCH","H_22_EPOCH","H_23_EPOCH","H_24_EPOCH","H_25_EPOCH","H_26_EPOCH","H_27_EPOCH","H_28_EPOCH","H_29_EPOCH","H_30_EPOCH","H_31_EPOCH","H_32_EPOCH","H_33_EPOCH","H_34_EPOCH","H_35_EPOCH","H_36_EPOCH","H_37_EPOCH","H_38_EPOCH","H_39_EPOCH","H_40_EPOCH","H_41_EPOCH","H_42_EPOCH","H_43_EPOCH","H_44_EPOCH","H_45_EPOCH","H_46_EPOCH","H_47_EPOCH","H_48_EPOCH","H_49_EPOCH","H_50_EPOCH","H_51_EPOCH","H_52_EPOCH","H_53_EPOCH","H_54_EPOCH","H_55_EPOCH","H_56_EPOCH","H_57_EPOCH","H_58_EPOCH","H_59_EPOCH","H_60_EPOCH","H_61_EPOCH","H_62_EPOCH","H_63_EPOCH","H_64_EPOCH","H_65_EPOCH","H_66_EPOCH","H_67_EPOCH","H_68_EPOCH","H_69_EPOCH","H_70_EPOCH","H_71_EPOCH","H_72_EPOCH","H_73_EPOCH","H_74_EPOCH","H_75_EPOCH","H_76_EPOCH","H_77_EPOCH","H_78_EPOCH","H_79_EPOCH","H_80_EPOCH","H_81_EPOCH","H_82_EPOCH","H_83_EPOCH","H_84_EPOCH","H_85_EPOCH","H_86_EPOCH","H_87_EPOCH","H_88_EPOCH","H_89_EPOCH","H_90_EPOCH","H_91_EPOCH","H_92_EPOCH","H_93_EPOCH","H_94_EPOCH","H_95_EPOCH","H_96_EPOCH","H_97_EPOCH","H_98_EPOCH","H_99_EPOCH","H_100_EPOCH","H_101_EPOCH","H_102_EPOCH","H_103_EPOCH","H_104_EPOCH","wolf_mask_epoch","pkin_mask_epoch",
 "C_Offroad_01_EPOCH",
 "C_Quadbike_01_EPOCH",
 "C_Hatchback_01_EPOCH",
@@ -474,7 +486,7 @@ lootBackpack_list = [
 "K01",
 "K02",
 "K03",
-"K04"
+"K04",
 "C_Rubberboat_EPOCH",
 "C_Rubberboat_02_EPOCH",
 "C_Rubberboat_03_EPOCH",
@@ -482,7 +494,7 @@ lootBackpack_list = [
 "C_Boat_Civil_01_EPOCH",
 "C_Boat_Civil_01_police_EPOCH",
 "C_Boat_Civil_01_rescue_EPOCH",
-"jetski_epoch"
+"jetski_epoch",
 "B_Heli_Light_01_EPOCH",
 "O_Heli_Light_02_unarmed_EPOCH",
 "I_Heli_Transport_02_EPOCH",
@@ -508,6 +520,7 @@ lootBackpack_list = [
 "I_UAV_01_backpack_F",
 "O_UAV_01_backpack_F"
 ]],[ 1, [						// MILITARY
+"ItemLockBox",
 "B_BergenG",						// 64 Mags
 "B_Carryall_cbr",					// 60 Mags
 "B_FieldPack_blk",					// 35 Mags
@@ -530,6 +543,7 @@ lootBackpack_list = [
 "I_UAV_01_backpack_F",
 "O_UAV_01_backpack_F"
 ]],[ 2, [						// INDUSTRIAL
+"ItemLockBox",
 "B_Carryall_cbr",					// 60 Mags
 "B_TacticalPack_oli",
 "B_TacticalPack_rgr",
@@ -537,6 +551,7 @@ lootBackpack_list = [
 "I_UAV_01_backpack_F",
 "O_UAV_01_backpack_F"
 ]],[ 3, [						// RESEARCH
+"ItemLockBox",
 "B_GMG_01_high_weapon_F",
 "B_GMG_01_weapon_F",
 "B_HMG_01_support_F",
@@ -554,18 +569,21 @@ lootBackpack_list = [
 //								objectlist	: list of worldobject class names
 lootworldObject_list = [
 [ 0, [							// CIVIL
+"ItemLockBox",
 "Box_East_Wps_F",
 "Box_NATO_Wps_F",
 "Land_Basket_F", 					// food
 "Land_CanisterPlastic_F",			// water
 "Land_CanisterFuel_F"				// Jerrycan
 ]],[ 1, [						// MILITARY
+"ItemLockBox",
 "Box_East_Wps_F",
 "Box_NATO_Wps_F",
 "Land_CanisterFuel_F",				// jerrycan
 "Land_Can_V3_F", 					// energydrink
 "Land_Suitcase_F"					// repairkit
 ]],[ 2, [						// INDUSTRIAL
+"ItemLockBox",
 //"Box_IND_Support_F",	//support boxes don't erease inventory
 "Box_IND_Grenades_F",
 "Box_IND_Ammo_F",
@@ -574,6 +592,7 @@ lootworldObject_list = [
 "Land_CanisterOil_F", 				// syphon hose
 "Land_Suitcase_F"					// repairkit
 ]],[ 3, [						// RESEARCH
+"ItemLockBox",
 "Box_East_Ammo_F",
 "Box_IND_Ammo_F",
 "Box_NATO_Ammo_F",
