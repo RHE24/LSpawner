@@ -254,7 +254,7 @@ lootItem_list = [
 "FAK",
 "Towelette",
 "HeatPack",
-"ColdPack"
+"ColdPack",
 "ItemTopaz",
 "ItemOnyx",
 "ItemSapphire",
@@ -503,7 +503,7 @@ lootBackpack_list = [
 "O_Heli_Transport_04_bench_EPOCH",
 "O_Heli_Transport_04_box_EPOCH",
 "O_Heli_Transport_04_covered_EPOCH",
-"B_Heli_Transport_03_unarmed_EPOCH"
+"B_Heli_Transport_03_unarmed_EPOCH",
 "B_AssaultPack_blk",				// 34 Mags
 "B_AssaultPack_cbr",
 "B_AssaultPack_dgtl",
