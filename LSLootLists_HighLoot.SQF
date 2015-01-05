@@ -367,7 +367,7 @@ lootWeapon_list = [
 "hgun_Rook40_F",
 "SMG_01_F",
 "SMG_02_F",
-"srifle_EBR_F"
+"srifle_EBR_F",
 "arifle_SDAR_F",
 ]],[ 1, [						// MILITARY
 
