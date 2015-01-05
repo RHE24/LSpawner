@@ -190,7 +190,7 @@ lootItem_list = [
 "VehicleRepairLg",
 "Hatchet",
 "MultiGun",
-"MeleeSledge"
+"MeleeSledge",
 "CircuitParts",
 "VehicleRepair",
 "ItemMixOil",
